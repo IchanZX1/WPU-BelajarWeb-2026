@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba CSS - Font Styling</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Slackey&display=swap");
+      @font-face {
+        font-family: airstrike;
+        src: url("fonts/airstrikecond.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      h1 {
+        color: crimson;
+        font-size: 60px;
+        text-align: center;
+        font-family: "Slackey", sans-serif;
+        font-weight: 300;
+      }
+
+      p {
+        color: navy;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .font-airstrike {
+        font-family: airstrike;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet expedita
+      saepe dolorum adipisci et nemo animi laudantium non, veritatis earum.
+    </p>
+    <p class="font-airstrike">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+      recusandae culpa nobis adipisci repellat explicabo suscipit exercitationem
+      voluptate, eaque nesciunt.
+    </p>
+  </body>
+</html>
