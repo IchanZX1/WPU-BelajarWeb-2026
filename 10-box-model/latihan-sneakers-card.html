@@ -1,0 +1,140 @@
+<!-- Baru belajar box model jadi semantic html nya masih berantakan -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers Card</title>
+    <style>
+        * {
+            /* margin: 0;
+            padding: 0; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .img-produk {
+            display: block;
+            margin: 17px auto;
+            border-radius: 14px;
+        }
+
+        body {
+            width: 400px;
+            margin: 50px auto;
+            background-color: #e7e4e4;
+            /* border: 2px solid crimson; */
+        }
+
+        .detail-produk {
+            margin: 27px;
+        }
+        .nama-sepatu {
+            font-size: 15px;
+            color: darkblue;
+            letter-spacing: 2px;
+        }
+
+        .type {
+            font-weight: bold;
+            font-size: 27px;
+        }
+
+        .detail-produk p {
+            color: #929292ee;
+        }
+
+        span.harga {
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .promo {
+            padding-left: 6px;
+            text-decoration: line-through;
+            color: #929292;
+        }
+
+        .detail-harga {
+            margin-top: 34px;
+        }
+
+        .card {
+            padding-top: 12px;
+            background-color: white;
+            border-radius: 4px;
+        }
+
+        ul {
+            display: flex;       
+            list-style: none;  
+            padding: 0;
+            gap: 10px;         
+        }
+
+        ul li {
+            padding: 10px 15px;
+            border: 2px solid #333;
+            border-radius: 4px;
+            background-color: #fff; 
+        }
+
+        ul li:hover{
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+
+        button#btn {
+            display: block;
+            text-align: center;
+            margin: 7px auto;
+            color: white;
+            background-color: black;
+            font-weight: bold;
+            padding: 12px 62px;
+            border: none;
+            border-radius: 11px;
+        }
+
+        button#btn:hover {
+            background-color: #434343;
+        }
+
+        button#btn:active {
+            background-color: #eee;
+            border: 2px solid black;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="card">
+        <img class="img-produk" src="https://i.pinimg.com/1200x/41/5d/dc/415ddcc0c0a211dd0585b350932105f1.jpg" width="340px" alt="gambar sepatu nike">
+    <div class="detail-produk">
+        <h3 class="nama-sepatu">NIKE SPORTWEAR</h3>
+    <span class="type">Air Max Essential</span>
+    <p>Kombinasi sempurna antara gaya retro dan kenyamanan modern. Dilengkapi dengan teknologi Air-Sole untuk bantalan yang responsif setiap hari</p>
+    <hr>
+    <div class="detail-harga">
+        <span class="harga">Rp 1,899,000</span> <span class="promo">Rp 2,299,000</span>
+    <h4 class="ukuran">
+        Pilih Ukuran (US):
+    </h4>
+    <ul>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+    </ul>
+
+    <button id="btn">
+        TAMBAHKAN KE <br> KERANJANG
+    </button>
+    <br>
+    </div>
+    </div>
+    </section>
+</body>
+</html>
